@@ -1,7 +1,7 @@
 const net = require('net');
 
 // Conectar al servidor en la dirección IP del servidor y el puerto 8080
-const client = net.createConnection({ host: '172.17.107.157', port: 8080 }, () => {
+const client = net.createConnection({ host: '192.168.1.135', port: 8080 }, () => {
     console.log('Conectado al servidor.');
 
     // Enviar un mensaje al servidor cuando el usuario escribe en la terminal
